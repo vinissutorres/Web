@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /* importando uma fonte do Google Fonts*/
+
+/* usado para não ter espaço na parte de cima do site, retirado da unidade 8*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*box-sizing retirado de : https://www.w3schools.com/css/css3_box-sizing.asp*/
+
+/*pra deixar SI401 e UNICAMP numa linha só*/
+.cabeçalho{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    align-items: baseline
+}
+/*baseline retirado de: https://developer.mozilla.org/en-US/docs/Web/CSS/align-items*/
+
+/*pra manter tudo o que está no body com a fonte escolhida, retirado do slide da unidade 7*/
+body{
+    width: 100vw;
+    height: 100vh;
+    background: whitesmoke;
+    font-family: "Roboto", serif;
+}
+
+.Imagem{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.hour{
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    }
+
+.imagemmetodos{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    }
+
+.links{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    }
+
+.iframe{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    }
+
+/*display flex, flex direction, justify content e align items retirado de :https://origamid.com/projetos/flexbox-guia-completo/*/
